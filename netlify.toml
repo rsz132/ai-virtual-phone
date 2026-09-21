@@ -80,3 +80,8 @@
   for = "/default-wallpaper.webp"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/api/xhs-mcp"
+  to = "/.netlify/functions/xhs-mcp"
+  status = 200
